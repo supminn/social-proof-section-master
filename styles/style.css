@@ -58,6 +58,7 @@ body {
   margin: 0.8rem;
   border-radius: 0.5rem;
   padding: 2rem;
+  height: 170px;
 }
 
 .img-dp{
@@ -66,17 +67,17 @@ body {
   height: 15%;
 }
 
-.rating-one{
+.rating-content:nth-of-type(1){
   margin-left: -25%;
   width: 85%;
 }
 
-.rating-two{
+.rating-content:nth-of-type(2){
   margin-left: -15%;
   width: 85%;
 }
 
-.rating-three{
+.rating-content:nth-of-type(3){
   margin-left: -5%;
   width: 85%;
 }
@@ -84,6 +85,8 @@ body {
 .review-container{
   margin-top: 3%;
   font-size: small;
+  height: 300px;
+  /* border: 1px solid red; */
 }
 
 .user-tag{
@@ -117,6 +120,16 @@ body {
 .review-content{
   padding-top: 1.5rem;
   line-height: 1.6;
+}
+
+.review:nth-of-type(1){
+  align-self: flex-start;
+}
+.review:nth-of-type(2){
+  align-self: center;
+}
+.review:nth-of-type(3){
+  align-self: flex-end;
 }
 
 .attribution {
